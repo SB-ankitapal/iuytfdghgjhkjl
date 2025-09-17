@@ -1,0 +1,31 @@
+{
+  "title": "Tag",
+  "x-stoplight": {
+    "id": "shkonahbkqj0u"
+  },
+  "type": "object",
+  "description": "A piece of metadata.  ",
+  "required": [
+    "name"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "x-stoplight": {
+        "id": "n36t5txn7ubyh"
+      },
+      "minLength": 1,
+      "maxLength": 64,
+      "description": "The name of the tag."
+    },
+    "value": {
+      "type": "string",
+      "x-stoplight": {
+        "id": "90spmzfb84097"
+      },
+      "minLength": 0,
+      "maxLength": 256,
+      "description": "The value of the tag."
+    }
+  }
+}
