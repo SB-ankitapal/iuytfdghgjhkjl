@@ -53,7 +53,12 @@
         "x-stoplight": {
           "id": "w411po35ggz3b"
         },
-        "x-internal": true
+        "x-internal": true,
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
       },
       "parameters": []
     },
